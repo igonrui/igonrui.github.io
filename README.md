@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://cdn2.f-cdn.com/contestentries/981957/23065523/58d82d8f99d83_thumb900.jpg" />
+</p>
+
 ### Hi there 👋
 
 <!--
