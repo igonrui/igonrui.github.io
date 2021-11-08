@@ -1,20 +1,10 @@
-<p align="center">
-<img src="https://cdn2.f-cdn.com/contestentries/981957/23065523/58d82d8f99d83_thumb900.jpg" />
-</p>
+### Hi there 👋🏻
 
-### Hi there 👋
+Thanks for visiting my GitHub profile. Some info about me:
 
-<!--
-**igonrui/igonrui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🏢 My company: [Cabify](https://cabify.com/) — ridesharing company
+- 🎯 Remote working from: [Seville, Spain](https://www.google.com/search?q=Seville)
+- 🌎 Profiles: [Linkedin](https://www.linkedin.com/in/irenegonzalezruiz/)
+- 📫 Contact: [irene.gonzalez@cabify.com](mailto:irene.gonzalez@cabify.com)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Irene's github stats](https://github-readme-stats.vercel.app/api?username=igonrui&show_icons=true&custom_title=igonrui%27s%20GitHub%20Stats:)
