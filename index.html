@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Irene González Ruiz">
+    <meta name="image" property="og:image" content="images/Astronaut_1.jpg">
+    <meta name="description" property="og:description"
+        content="I'm Irene G. Ruiz, a software engineer currently working on middleware services and libraries at Cabify">
+    <title>Irene G. Ruiz - Software Engineer</title>
+    <link rel="icon" href="images/icon.png">
+    <!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+    <link rel="stylesheet" href="css/index.css" />
+
+</head>
+
+<body class="body">
+
+    <header class="header" >
+        <section class="spikes"></section>
+        <div class="header-icons" >
+           <nav class="nav" >
+              <div class="nav_sections"  >
+                 <a href="mailto:ireneglezruiz@gmail.com" class="nav_link">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" aria-hidden="true"  >
+                       <path d="M0 0h24v24H0V0z" fill="none"></path>
+                       <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                 </a>
+                 <a href="tel:+34653262445" class="nav_link">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" aria-hidden="true"  >
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+                    </svg>
+                </a>
+              </div>
+           </nav>
+        </div>
+     </header>
+     <main class="containers">
+        <section class="container"   >
+            <div class="home_image">
+                <img class="img-responsive round-avatar" src="images/irene.jpg" alt="Irene González Ruiz">
+            </div>
+        </section>
+        <section class="container"   >
+            <div class="home mask">
+                <h1 class="home_title">Hi there!<br>I'm <strong>Irene</strong>.</h1>
+                <h3 class="home_title home_title-sub">
+                    I’m a software engineer,<br>working on <strong>backend</strong> services and libraries.
+                </h3>
+            </div>
+        </section>
+        <section class="container icon">
+            <img class="icon" src="images/icon.png" alt="Icon">
+        </section>
+        <section class="about container" class="mask"><h2 class="mask">About me</h2>
+            <p class="mask">
+                Remote working from <a href="https://g.co/kgs/PYqwQR">Seville, Spain</a>, I design, implement, maintain and support services and libraries written in Go, Elixir and Ruby in the <span class="strong">Middleware team</span> <img class="icon-middleware" src="images/middleware.png" alt="Icon"> at <a class="cabify" href="https://cabify.com/">Cabify</a>.
+            </p>
+            <p class="mask">
+                    I always enjoyed being with a computer, and that's how I realized I wanted to become a <strong>software engineer</strong>.
+                    I'm not going to lie: it wasn't an easy choice for me. How weird computer stuff can look from the outside (and you can't even imagine how's on the inside!).
+                    But that passion of always looking for more took me here after all and I can't be prouder.
+            </p>
+            <p class="mask">
+                I'm a friendly and service minded girl who has a strong sense of adaptability, making me adjust to people and situations easily. 
+                I'm well-organised and enthusiastic, fulfilling any task I am required to rapidly and in full.  
+            </p>
+            <p class="mask">
+                I'm looking for something <strong>different</strong>, <strong>challenging</strong>, <strong>innovative</strong> and of course, <strong>worthy of admiration</strong>.
+            </p>
+            <div class="container-quote">
+                <span class="title-quote">Random quote</span>
+                <span class="retry" id="new-quote" alt="New quote">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" aria-hidden="true"  >
+                        <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
+                    </svg>
+                </span>
+
+                <div class="quote">
+                    <span class="random-quote" id="text"></span>
+                    <span class="random-author">~ <span id="author"></span></span>
+                </div>
+            </div>
+    </section>
+     </main>
+     <footer>
+        <div class="footer">
+           <a href="https://www.linkedin.com/in/irenegonzalezruiz/" rel="noopener noreferrer nofollow" class="footer">LinkedIn</a>&nbsp; · &nbsp;<a href="http://github.com/igonrui/" rel="noopener noreferrer nofollow" class="footer">GitHub</a>
+        </div>
+     </footer>
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/randomquote.js"></script>
+
+</html>

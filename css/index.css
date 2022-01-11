@@ -1,0 +1,277 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    line-height:1.15;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    margin:0;
+    width:100%;
+    min-height:100vh;
+    padding-bottom:8rem;
+    position:relative;
+    background:#f0f8ef;
+    color:#222;
+    font-family: "Lucida Console", Monaco, monospace;
+    --title-size:2rem;
+}
+
+
+.nav{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_sections{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.spikes {
+    position: relative;
+    background: linear-gradient(90deg,#ed6ea0 0,#ec8c69);
+  }
+  
+.spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 30px;
+    background-size: 30px 100%;
+    background-image: linear-gradient(135deg, #222 25%, transparent 25%), linear-gradient(225deg, #222 25%, transparent 25%);
+    background-position: 0 0;
+}
+
+header{
+    /*border-top: 8px solid #222;*/
+    display: block;
+    box-sizing: border-box;
+    --title-size: 2.5rem;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding-bottom:2em;
+}
+header .header-icons{
+    padding:2em;
+}
+
+a.nav_link{
+    border-radius: 50%;
+}
+
+a.nav_link:hover{
+    fill:#fff;
+}
+
+.round-avatar {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+
+}
+
+.containers {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  
+  /* Screen less than 768px? 1 column */
+  @media screen and (max-width: 768px) {
+    .containers { grid-template-columns: repeat(1, 1fr); }
+    .container{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .home.mask{
+        text-align: center;
+    }
+    .home_image {
+        height: 14.8rem;
+        width: 14.8rem;
+        max-width: 100%;
+        padding-top: 5rem;
+    }
+  }
+  
+  /* Screen larger than 767px? 2 columns */
+  @media screen and (min-width: 767px){
+    .containers { grid-template-columns: repeat(2, 1fr); }
+
+    .home_image{
+        height:17.8rem;
+        width:17.8rem;
+        max-width:100%
+    }
+  }
+
+.container{
+    max-width:100%;
+    padding:0 1.5rem;
+    margin:0 auto;
+    line-height:1.4;
+    align-self: center;
+
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.icon-middleware{
+    width:20px;
+    height:20px;
+    align-self: center;
+}
+.strong{
+    font-weight:1000;
+    color:#000
+}
+
+.about{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+    padding: 2em 4em;
+}
+
+strong{
+    font-weight:400;
+    color:#ff82a9
+}
+
+
+h1{
+    font-size:3.5rem;
+    margin:.0 0
+}
+
+h2{
+    font-size:1.75rem;
+    border-bottom: 3px solid #c3e8bc;
+}
+
+a{
+    background-color:transparent;
+    --webkit-text-decoration-skip:objects
+}
+
+a.cabify {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 3px solid #7145D6;
+    transition: all .3s;
+}
+
+b,strong{
+    font-weight:inherit;
+    font-weight:bolder
+}
+
+img{
+    border-style:none
+}
+
+
+h1,h2,h3,h4,h5{
+    font-weight:400
+}
+a{
+    color:#222;
+    text-decoration:none;
+    border-bottom:3px solid #ff82a9;
+    transition:all .3s;
+    border-radius: 4px;
+    padding: 3px 3px 1px;
+}
+
+a:hover{
+    background:#ff82a9
+}
+
+a.cabify:hover{
+    background:#7145D6;
+    color: #fff;
+}
+a.nav_link{
+    padding: 0.5em;
+    border-bottom:none;
+}
+a.footer{
+    color:#fff
+}
+a.footer:hover{
+    color:#222
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top:4rem;
+    padding:1rem 0;
+    background:#222;
+    color:#fff;
+    text-align:center;
+    margin-top:3em;
+    padding-bottom:2em;
+}
+.container-quote{
+padding-top: 5rem;
+}
+
+.title-quote{
+    font-weight:bold;
+    font-size: 1.17em;
+    padding-right: 0.5rem;
+}
+
+.random-quote{
+    font-size: 0.75rem;
+    font-style: italic;
+}
+.random-author{
+    font-size: 0.85rem;
+}
+.retry{
+    padding: 0.25rem;
+    border-bottom: none;
+    cursor: pointer;
+    color: #222;
+    text-decoration: none;
+    transition: all .3s;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.retry:hover{
+    fill:#ff82a9;
+}
+
+.quote{
+    padding-top: 0.75rem;
+}
