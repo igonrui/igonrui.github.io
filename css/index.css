@@ -18,6 +18,7 @@ body {
     width:100%;
     min-height:100vh;
     padding-bottom:8rem;
+    padding-top: 4em;
     position:relative;
     background:#f3f3f3;
     color:#222;
@@ -71,6 +72,7 @@ header .header-icons{
   
   /* Screen less than 768px? 1 column */
   @media screen and (max-width: 768px) {
+    body{padding-top: 1em;}
     .containers { grid-template-columns: repeat(1, 1fr); }
     .container{
         grid-column-start: 1;
